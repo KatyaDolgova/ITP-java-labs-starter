@@ -4,9 +4,9 @@ import java.util.Arrays;
 
 public class DataSample {
     private final String id;
-    private String label;
+    private final String label;
     private SampleStatus status;
-    private double[] features;
+    private final double[] features;
 
     public DataSample(String id, String label, SampleStatus status, double[] features) {
         if (id == null || id.isEmpty()) {
