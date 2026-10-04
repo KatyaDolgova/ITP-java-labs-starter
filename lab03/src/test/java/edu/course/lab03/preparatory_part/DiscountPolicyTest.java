@@ -1,9 +1,14 @@
-package edu.course.lab03;
+package edu.course.lab03.preparatory_part;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import org.junit.jupiter.api.Test;
+
+import edu.course.lab03.preparatory_part.DiscountPolicy;
+import edu.course.lab03.preparatory_part.NoDiscount;
+import edu.course.lab03.preparatory_part.PercentDiscount;
+import edu.course.lab03.preparatory_part.PriceCalculator;
 
 class DiscountPolicyTest {
 

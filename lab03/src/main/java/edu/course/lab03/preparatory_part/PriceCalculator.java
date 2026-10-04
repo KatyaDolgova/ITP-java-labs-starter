@@ -1,4 +1,4 @@
-package edu.course.lab03;
+package edu.course.lab03.preparatory_part;
 
 public class PriceCalculator {
 
